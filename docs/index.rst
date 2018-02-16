@@ -378,27 +378,3 @@ Changelog
 
 
 Authors
-=======
-
-Sep Dehpour
-
-- `Github <https://github.com/seperman>`_
-- `ZepWorks <http://www.zepworks.com>`_
-- `Linkedin <http://www.linkedin.com/in/sepehr>`_
-- `Article about Deepdiff <http://zepworks.com/blog/diff-it-to-digg-it/>`_
-
-Victor Hahn Castell
-
-- `hahncastell.de <http://hahncastell.de>`_
-- `flexoptix.net <http://www.flexoptix.net>`_
-
-
-ALso thanks to:
-
-- nfvs for Travis-CI setup script
-- brbsix for initial Py3 porting
-- WangFenjin for unicode support
-- timoilya for comparing list of sets when ignoring order
-- Bernhard10 for significant digits comparison
-- b-jazz for PEP257 cleanup, Standardize on full names, fixing line endings.
-- Victor Hahn Castell @ Flexoptix for deep set comparison
