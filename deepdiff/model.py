@@ -520,6 +520,15 @@ class ChildRelationship(object):
     # :return: Manipulated string, as appropriate in this context.
     quote_str = None
 
+    # Format to a be used for representing param.
+    # E.g. for a dict, this turns a formatted param param "42" into "[42]".
+    param_repr_format = None
+
+    # This is a hook allowing subclasses to manipulate param strings.
+    # :param string: Input string
+    # :return: Manipulated string, as appropriate in this context.
+    quote_str = None
+
     @staticmethod
     def create(klass, parent, child, param=None):
         if not issubclass(klass, ChildRelationship):
