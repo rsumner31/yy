@@ -899,7 +899,7 @@ class DeepDiff(ResultDict):
         """Compare strings"""
         if level.t1 == level.t2:
             return
-        
+
         # do we add a diff for convenience?
         do_diff = True
         if isinstance(level.t1, bytes_type):

@@ -1,4 +1,4 @@
-# deepdiff v 3.3.0
+# deepdiff v 3.2.1
 
 [![Join the chat at https://gitter.im/deepdiff/Lobby](https://badges.gitter.im/deepdiff/Lobby.svg)](https://gitter.im/deepdiff/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <!-- ![Downloads](https://img.shields.io/pypi/dm/deepdiff.svg?style=flat) -->
@@ -57,7 +57,7 @@ int, string, dictionary, list, tuple, set, frozenset, OrderedDict, NamedTuple an
 
 ## Ignore Order
 
-Sometimes you don't care about the order of objects when comparing them. In those cases, you can set `ignore_order=True`. However this flag won't report the repetitions to you. You need to additionally enable `report_repetition=True` for getting a report of repetitions.
+Sometimes you don't care about the order of objects when comparing them. In those cases, you can set `ignore_order=True`. However this flag won't report the repetitions to you. You need to additionally enable `report_report_repetition=True` for getting a report of repetitions.
 
 ### List difference ignoring order or duplicates
 
@@ -794,7 +794,6 @@ And here is more info: <http://zepworks.com/blog/diff-it-to-digg-it/>
 
 ## Change log
 
-- v3-3-0: Searching for objects and class attributes
 - v3-2-2: Adding help(deepdiff)
 - v3-2-1: Fixing hash of None
 - v3-2-0: Adding grep for search: object | grep(item)
@@ -849,5 +848,3 @@ Also thanks to:
 - moloney for Unicode vs. Bytes default
 - serv-inc for adding help(deepdiff)
 - movermeyer for updating docs
-- maxrothman for search in inherited class attributes
-- maxrothman for search for types/objects

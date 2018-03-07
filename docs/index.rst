@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-DeepDiff 3.3.0 documentation!
+DeepDiff 3.2.1 documentation!
 =============================
 
 **DeepDiff: Deep Difference of dictionaries, iterables and almost any other object recursively.**
@@ -346,7 +346,6 @@ Indices and tables
 Changelog
 =========
 
-- v3-3-0: Searching for objects and class attributes
 - v3-2-2: Adding help(deepdiff)
 - v3-2-1: Fixing hash of None
 - v3-2-0: Adding grep for search: object | grep(item)
@@ -378,3 +377,27 @@ Changelog
 
 
 Authors
+=======
+
+Sep Dehpour
+
+- `Github <https://github.com/seperman>`_
+- `ZepWorks <http://www.zepworks.com>`_
+- `Linkedin <http://www.linkedin.com/in/sepehr>`_
+- `Article about Deepdiff <http://zepworks.com/blog/diff-it-to-digg-it/>`_
+
+Victor Hahn Castell
+
+- `hahncastell.de <http://hahncastell.de>`_
+- `flexoptix.net <http://www.flexoptix.net>`_
+
+
+ALso thanks to:
+
+- nfvs for Travis-CI setup script
+- brbsix for initial Py3 porting
+- WangFenjin for unicode support
+- timoilya for comparing list of sets when ignoring order
+- Bernhard10 for significant digits comparison
+- b-jazz for PEP257 cleanup, Standardize on full names, fixing line endings.
+- Victor Hahn Castell @ Flexoptix for deep set comparison
